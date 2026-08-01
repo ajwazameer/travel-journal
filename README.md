@@ -1,16 +1,95 @@
-# React + Vite
+# 🌍 Travel Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application built while learning the fundamentals of React. This project displays a collection of travel destinations using reusable components and dynamic data, helping reinforce core React concepts like props, component composition, and rendering lists.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Travel Journal Preview**
 
-## React Compiler
+![alt text](image.png)![alt text](image-1.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Built with React and Vite
+- Component-based architecture
+- Reusable travel card components
+- Displays destination images and trip details
+- Google Maps links for each location
+- Clean and responsive user interface
+- Organized project structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- Vite
+- JavaScript (ES6+)
+- JSX
+- CSS3
+
+## Project Structure
+
+```text
+src/
+├── App.jsx
+├── Header.jsx
+├── Entry.jsx
+├── data.js
+├── assets/
+├── index.css
+└── main.jsx
+```
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/ajwazameer/travel-journal.git
+```
+
+### Navigate to the project
+
+```bash
+cd travel-journal
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+## What I Learned
+
+During this project, I practiced:
+
+- Creating reusable React components
+- Passing data through props
+- Rendering lists with `map()`
+- Organizing components and assets
+- Working with local data
+- Structuring a React application
+- Styling responsive layouts with CSS
+- Setting up a React project using Vite
+
+## Author
+
+**Ajwa Zameer**
+
+GitHub: https://github.com/ajwazameer
+
+## License
+
+This project is for educational purposes as part of my React learning journey.
